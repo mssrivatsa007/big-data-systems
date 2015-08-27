@@ -23,7 +23,7 @@ echo 'export PATH=$SCALA_HOME/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
 
 # verify scala
-sudo apt-get install git
+apt-get install git
 
 # download and extract spark 1.2.1
 wget http://d3kbcqa49mib13.cloudfront.net/spark-1.2.1.tgz
