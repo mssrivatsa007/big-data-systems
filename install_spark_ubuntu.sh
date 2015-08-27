@@ -23,6 +23,9 @@ echo 'export PATH=$SCALA_HOME/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
 
 # verify scala
+scala -vesion
+
+# install git
 apt-get install git
 
 # download and extract spark 1.2.1
