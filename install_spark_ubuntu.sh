@@ -1,4 +1,5 @@
 # installation script for spark 1.2.1 on ubuntu 14.x 
+# usage : sudo sh install_spark_ubuntu.sh
 
 # install java 7
 apt-add-repository ppa:webupd8team/java
