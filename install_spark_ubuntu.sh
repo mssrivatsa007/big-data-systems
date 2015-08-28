@@ -4,7 +4,7 @@
 # install java 7
 apt-add-repository ppa:webupd8team/java
 apt-get update
-apt-get install oracle-java7-installer
+apt-get install oracle-java7-installer -y
 
 # verify java
 java -version
@@ -23,7 +23,7 @@ echo 'export PATH=$SCALA_HOME/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
 
 # verify scala
-scala -vesion
+scala -version
 
 # install git
 apt-get install git
